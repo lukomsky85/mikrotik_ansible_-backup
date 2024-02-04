@@ -1,0 +1,10 @@
+[mikrotik]
+ip-адрес mikrotik
+
+[mikrotik:vars]
+ansible_user=user1 (пользователь mikrotik)
+ansible_password=user1 (пароль mikrotik)
+ansible_connection=ansible.netcommon.network_cli
+ansible_network_ok=community.routeros.routeros
+ansible_python_interpreter=/usr/local/lib/python3.9
+ansible_command_timeout=120
